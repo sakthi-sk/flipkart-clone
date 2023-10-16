@@ -1,0 +1,254 @@
+.ProductsDetalis{
+    padding: 80px 10px 10px 20px;
+    width: 100%;
+    height: 100%;
+    background: rgb(247, 246, 246);
+    display: flex;
+}
+
+.ProductsDetalis-left {
+    width: 40%;
+    display: flex;
+}
+
+.otherImgs {
+    display: flex;
+    flex-direction: column;
+}
+
+.proimg {
+    width: 50px;
+    height: 60px;
+    object-fit: contain;
+    margin: 10px;
+    border: 1px solid rgb(226, 222, 222);
+    padding: 5px;
+    cursor: pointer;
+}
+
+.proimg:hover {
+    border: 1px solid rgb(66, 127, 240);
+}
+
+.ProductDetali-img {
+    width: 90%;
+    border: 1px solid rgb(221, 218, 218);
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 10px;
+}
+
+.ProductDetali-img>img {
+    width: 195px;
+    height: 416px;
+    object-fit: contain;
+}
+
+.ProductDetail-btns {
+    width: 100%;
+}
+
+.ProductDetail-btns{
+  
+    width: 500px;
+    padding: 18px 8px;
+    font-size: 16px;
+    margin: 1rem 4px;
+    border: none;
+    outline: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 2px;
+    cursor: pointer;
+   
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ProductDetail-btn:nth-child(1) {
+    
+    background: #ff9f00;
+    height: 60px;
+    width: 200px;
+    border: none;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+.ProductDetail-btn:nth-child(2) {
+    background: #fb641b;
+    height: 60px;
+        width: 200px;
+        border: none;
+        color: white;
+        font-size: large;
+} 
+
+.ProductsDetalis-right {
+    width: 60%;
+    padding: 10px 20px;
+
+    /* overflow: scroll; */
+}
+
+.ProductName {
+    font-size: 18px;
+    color: #212121;
+    letter-spacing: 1px;
+}
+
+.ratingreviews {
+    padding: 10px 0;
+    display: flex;
+}
+
+.Price {
+    padding: 8px 0 0;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.packfee {
+    font-size: 14px;
+    color: #212121;
+    font-weight: 300;
+    padding: 5px 0;
+    font-weight: bold;
+}
+
+.avilableoff{
+    font-size: 16px;
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+.offers{
+    padding: 5px 5px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.offers>img {
+    margin-right: 5px;
+}
+
+.descriptions {
+    padding: 20px 0;
+}
+
+.Colors {
+    display: flex;
+    /* justify-content: center; */
+}
+
+.Color {
+    color: #a7a5a5;
+    font-weight: bold;
+    
+}
+
+.colorImgs {
+    padding: 0 80px;
+}
+
+.colorImgs>img {
+    width: 60px;
+    height: 70px;
+    object-fit: contain;
+    margin: 0 0 8px 16px;
+    border: 2px solid #ece9e9;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.colorImgs>img:hover {
+    border: 2px solid #1435f0;
+}
+
+.highlights {
+    display: flex;
+    padding: 20px 0;
+  
+}
+
+.highlight {
+    padding: 0 50px;
+}
+
+.highlights-title{
+    color: #a7a5a5;
+    font-weight: 300;
+    font-weight: bold;
+}
+
+.highlight-item{
+    padding: 0 0 8px 16px;
+    font-size: 15px;
+    font-weight: 300;
+    font-weight: bold;
+}
+
+.RatingAndReviews-title {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.RatingAndReviews-container{
+    display: flex;
+    padding: 20px 0;
+}
+
+.RatingAndReviews-stars {
+    text-align: center;
+    width: 150px;
+    padding: 0 40px 10px 0px;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.RatingAndReviews-reviews {
+    font-size: 25px;
+    
+}
+
+.RatingAndReviews-ratings{
+    font-size: 14px;
+    color: #2b2a2a;
+    font-weight: 300;
+    padding: 5px 0;
+    font-weight: bold;
+}
+
+.RatingAndReviews-charts>li {
+    list-style-type: none;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+}
+
+.star{
+    padding: 0px 10px;
+}
+
+.bar {
+    width: 300px;
+    height: 5px;
+    background: #cccaca;
+    border-radius: 10px;
+}
+
+.innerbar{
+    background: rgb(3, 112, 8);
+    /* border:  1px solid red; */
+    /* width: 50%; */
+    height: 100%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
