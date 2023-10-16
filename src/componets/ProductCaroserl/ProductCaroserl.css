@@ -35,6 +35,6 @@
     width: calc(100% - 17%);
     height: 366px;
     position: relative;
-    border:  px solid red;
+  
     font-weight: bold;
   }
